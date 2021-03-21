@@ -7,4 +7,5 @@ This program will retrieve a list of matches for the 2019-2020 season for Cardif
 You can then use:
 
 /api/match - Retrieves all matches
+
 /api/match/:id - Retrieves a match for a particular matchId
