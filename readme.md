@@ -8,4 +8,13 @@ You can then use:
 
 /api/match - Retrieves all matches
 
-/api/match/:id - Retrieves a match for a particular matchId
+/api/match/:id - Retrieves a match for a particular match Id
+
+TODO - In the Future
+=====================
+
+- Write cucumber acceptance tests using wire mock as the fake server
+- Write an integration test for the match controller, enchancing the existing unit test
+- Look into asynchronous database operations
+- Add swagger definitions for the APIs
+- Change unit tests to use fluent assertions

@@ -107,8 +107,7 @@ namespace RugbyResults.Tests
             ExternalApiOptions externalApiOptions = new ExternalApiOptions()
             {
                 Url = "http://locahost:9001",
-                Season = "2019-2020",
-                TeamId = "103969"
+                Season = "2019-2020"
             };
 
             IOptions<ExternalApiOptions> result = Options.Create<ExternalApiOptions>(externalApiOptions);

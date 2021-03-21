@@ -16,8 +16,6 @@ namespace RugbyResults.Configuration
 
         public string Season { get; set; }
 
-        public string TeamId { get; set; }
-
         public string AuthToken { get; set; }
     }
 }
